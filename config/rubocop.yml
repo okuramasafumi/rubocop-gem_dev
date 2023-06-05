@@ -3,6 +3,10 @@ AllCops:
   Exclude:
     - 'vendor/bundle/**/*'
 
+# Items in Gemfile are dev dependencies and we don't have to specify versions.
+Bundler/GemVersion:
+  Enabled: false
+
 # Double negation is a famous Ruby idiom,
 # why not using it with confidence?
 Style/DoubleNegation:
