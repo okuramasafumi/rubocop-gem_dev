@@ -7,7 +7,7 @@ AllCops:
 Bundler/GemVersion:
   Enabled: false
 
-# We usually have LISENCE file that describes cipyright information.
+# We usually have LICENSE file that describes copyright information.
 Style/Copyright:
   Enabled: false
 
