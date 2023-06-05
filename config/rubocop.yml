@@ -12,6 +12,10 @@ Bundler/GemVersion:
 Style/DoubleNegation:
   Enabled: false
 
+# It's absolutely fine to use inline comments
+Style/InlineComment:
+  Enabled: false
+
 # Changing require order affects code execution
 # This should not be a style cop
 Style/RequireOrder:
