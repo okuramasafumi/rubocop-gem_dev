@@ -7,6 +7,10 @@ AllCops:
 Bundler/GemVersion:
   Enabled: false
 
+# We usually have LISENCE file that describes cipyright information.
+Style/Copyright:
+  Enabled: false
+
 # Double negation is a famous Ruby idiom,
 # why not using it with confidence?
 Style/DoubleNegation:
