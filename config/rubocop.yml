@@ -2,6 +2,10 @@ AllCops:
   # Exclude auto-generated files by Rails
   Exclude:
     - 'vendor/bundle/**/*'
+  # Enable all cops
+  # This setting allows us to use latest cops without explicit enabling
+  NewCops: enable
+  EnabledByDefault: true
 
 # Items in Gemfile are dev dependencies and we don't have to specify versions.
 Bundler/GemVersion:
