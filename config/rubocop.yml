@@ -38,7 +38,7 @@ Style/InlineComment:
 
 # These methods are often used without parentheses
 Style/MethodCallWithArgsParentheses:
-  AllowedMethods: ['require', 'require_relative', 'include', 'extend', 'puts', 'p', 'warn', 'raise', 'send', 'public_send', 'alias_method']
+  AllowedMethods: ['require', 'require_relative', 'include', 'extend', 'puts', 'p', 'pp', 'warn', 'raise', 'send', 'public_send', 'alias_method']
 
 # Changing require order affects code execution
 # This should not be a style cop
