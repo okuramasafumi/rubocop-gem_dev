@@ -27,6 +27,12 @@ Style/Copyright:
 Style/DisableCopsWithinSourceCodeDirective:
   Enabled: false
 
+# Test files don't need to have documentation
+Style/Documentation:
+  Exclude:
+    - 'test/**/*'
+    - 'spec/**/*'
+
 # Double negation is a famous Ruby idiom,
 # why not using it with confidence?
 Style/DoubleNegation:
