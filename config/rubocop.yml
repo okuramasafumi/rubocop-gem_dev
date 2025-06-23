@@ -43,8 +43,12 @@ Style/InlineComment:
   Enabled: false
 
 # These methods are often used without parentheses
+# Also assertions and expectations can be written without parentheses
 Style/MethodCallWithArgsParentheses:
   AllowedMethods: ['require', 'require_relative', 'include', 'extend', 'puts', 'p', 'pp', 'warn', 'raise', 'send', 'public_send', 'alias_method']
+  Exclude:
+    - 'test/**/*'
+    - 'spec/**/*'
 
 # Changing require order affects code execution
 # This should not be a style cop
