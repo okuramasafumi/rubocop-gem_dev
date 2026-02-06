@@ -19,6 +19,10 @@ Lint/ConstantResolution:
 Metrics/AbcSize:
   Max: 20
 
+# The number of keyword arguments rarely counts
+Metrics/ParameterLists:
+  CountKeywordArgs: false
+
 # We usually have LICENSE file that describes copyright information.
 Style/Copyright:
   Enabled: false
