@@ -42,6 +42,11 @@ Style/Documentation:
 Style/DoubleNegation:
   Enabled: false
 
+# `Hash#fetch` and `Hash#[]` are completely different
+# IMO, this should not belong to `Style` anyway
+Style/HashLookupMethod:
+  Enabled: false
+
 # It's absolutely fine to use inline comments
 Style/InlineComment:
   Enabled: false
