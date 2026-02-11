@@ -10,13 +10,13 @@ Gem::Specification.new do |spec|
 
   spec.summary = "RuboCop configuration for gem development"
   spec.description = "RuboCop configuration for gem development"
-  spec.homepage = "https://github.com/okuramasafumi/rubocop-sensible"
+  spec.homepage = "https://github.com/okuramasafumi/rubocop-gem_dev"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/okuramasafumi/rubocop-sensible/rubocop-gem_dev"
-  spec.metadata["changelog_uri"] = "https://github.com/okuramasafumi/rubocop-sensible/rubocop-gem_dev/blob/master/CHANGELOG.md"
+  spec.metadata["source_code_uri"] = "https://github.com/okuramasafumi/rubocop-gem_dev"
+  spec.metadata["changelog_uri"] = "https://github.com/okuramasafumi/rubocop-gem_dev/blob/main/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
