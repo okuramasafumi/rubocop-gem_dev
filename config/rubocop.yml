@@ -59,6 +59,11 @@ Style/MethodCallWithArgsParentheses:
     - 'test/**/*'
     - 'spec/**/*'
 
+# We need multiple classes for demonstration purpose in README
+Style/OneClassPerFile:
+  Exclude:
+    - 'README.md'
+
 # Changing require order affects code execution
 # This should not be a style cop
 Style/RequireOrder:
