@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.metadata["source_code_uri"] = "https://github.com/okuramasafumi/rubocop-gem_dev"
   spec.metadata["changelog_uri"] = "https://github.com/okuramasafumi/rubocop-gem_dev/blob/main/CHANGELOG.md"
 
-  spec.files = ['config/rubocop.yml']
+  spec.files = ["config/rubocop.yml"]
 
-  spec.add_dependency 'rubocop', '>= 1.85'
+  spec.add_dependency "rubocop", ">= 1.85"
 end
